@@ -5,8 +5,7 @@ import {App} from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <BrowserRouter basename="/vite-test"> */}
-    <BrowserRouter>
+    <BrowserRouter basename="/vite-test">
       <App />
     </BrowserRouter>
   </React.StrictMode>
