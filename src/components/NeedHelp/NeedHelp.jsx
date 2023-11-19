@@ -1,8 +1,10 @@
 import spriteIcon from '/src/images/sprite.svg'
-import './style.css'
+
 import { Modal } from '../Modal';
 import { EditProfile } from '../EditProfile';
 import { useState } from 'react';
+
+import './style.css'
 
 export const NeedHelp = () => {
   const [open, setIsOpen] = useState(false);
